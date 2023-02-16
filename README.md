@@ -33,7 +33,7 @@
 
 简单的道具拾取功能+UGUI的栅格系统+Json数据存储
 
-| ![bag1](.\images\bag1.png) |      |
+| ![bag1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/bag1.png) |      |
 | -------------------------- | ---- |
 |                            |      |
 
