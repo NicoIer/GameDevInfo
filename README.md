@@ -21,10 +21,10 @@
 
 主要是对UGUI的搭建
 
-| ![pokemon1](.\Images\pokemon1.png) |
+| ![pokemon1](.\images\pokemon1.png) |
 | ---------------------------------- |
-| ![pokemon2](.\Images\pokemon2.png) |
-| ![pokemon3](.\Images\pokemon3.png) |
+| ![pokemon2](.\images\pokemon2.png) |
+| ![pokemon3](.\images\pokemon3.png) |
 
 
 
@@ -34,7 +34,7 @@
 
 简单的道具拾取功能+UGUI的栅格系统+Json数据存储
 
-| ![bag1](.\Images\bag1.png) |      |
+| ![bag1](.\images\bag1.png) |      |
 | -------------------------- | ---- |
 |                            |      |
 
@@ -46,7 +46,7 @@
 
 Json对话数据存储+UGUI对话
 
-| ![talk1](.\Images\talk1.png) |
+| ![talk1](./images/talk1.png) |
 | ---------------------------- |
 
 
@@ -78,7 +78,7 @@ Json对话数据存储+UGUI对话
   - 聚类算法划分区域地皮
   - 随机漫步选择地标
 
-| ![RandomMap1](C:\Users\nico\Desktop\Images\RandomMap1.png) |
+| ![RandomMap1](./images\RandomMap1.png) |
 | ---------------------------------------------------------- |
-| ![RandomMap](C:\Users\nico\Desktop\Images\RandomMap.png)   |
+| ![RandomMap](./images\Images\RandomMap.png)   |
 
