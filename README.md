@@ -9,9 +9,9 @@
 - 手感优秀的平台跳跃优秀
 - 粒子系统,基本音效
 
-| ![Skip1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/images/Skip.png)  |
+| ![Skip1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images//Skip.png)  |
 | ---------------------------- |
-| ![Skip2](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/images/Skip2.png) |
+| ![Skip2](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images//Skip2.png) |
 
 
 ## PokemonUI
@@ -45,7 +45,7 @@
 
 Json对话数据存储+UGUI对话
 
-| ![talk1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/images/talk1.png) |
+| ![talk1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images//talk1.png) |
 | ---------------------------- |
 
 
@@ -58,11 +58,11 @@ Json对话数据存储+UGUI对话
 - TileMap创建场景
 - 使用`UITookit`拓展`Editor`进行快捷技能编辑
 
-| ![CricketMaster-5](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/images/CricketMaster-5.png)        |
+| ![CricketMaster-5](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images//CricketMaster-5.png)        |
 | ------------------------------------------------------- |
-| ![CricketMaster-5](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/images/CricketMaster-4.png)        |
-| ![CricketMaster-2](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/images/CricketMaster-3.png)        |
-| ![CricketMaster-UITookit](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/images/CricketMaster-7.png) |
+| ![CricketMaster-5](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images//CricketMaster-4.png)        |
+| ![CricketMaster-2](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images//CricketMaster-3.png)        |
+| ![CricketMaster-UITookit](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images//CricketMaster-7.png) |
 
 ## 随机地图生成
 
@@ -77,7 +77,7 @@ Json对话数据存储+UGUI对话
   - 聚类算法划分区域地皮
   - 随机漫步选择地标
 
-| ![RandomMap1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/images\RandomMap1.png) |
+| ![RandomMap1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/\RandomMap1.png) |
 | ---------------------------------------------------------- |
-| ![RandomMap](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/images\Images\RandomMap.png)   |
+| ![RandomMap](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/\Images\RandomMap.png)   |
 
