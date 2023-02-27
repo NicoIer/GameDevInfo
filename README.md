@@ -85,9 +85,9 @@ Json对话数据存储+UGUI对话
 
 `通过读取Excel表格的信息自动生成C#代码,并且将数据读取到So中便于后续使用`
 
-| ![RandomMap](./Images/excelToSo1.png) | _![RandomMap](./Images/excelToSo2.png) |
+| ![ExcelToSo1](./Images/excelToSo1.png) | _![ExcelToSo2](./Images/excelToSo2.png) |
 | ------------------------------------- | -------------------------------------- |
-| ![RandomMap](./Images/excelToSo3.png) |                                        |
+| ![ExcelToSo3](./Images/excelToSo3.png) |                                        |
 
 
 
