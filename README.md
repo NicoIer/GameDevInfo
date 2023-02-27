@@ -81,3 +81,13 @@ Json对话数据存储+UGUI对话
 | ---------------------------------------------------------- |
 | ![RandomMap](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/RandomMap.png)   |
 
+## Excel转SO工具
+
+`通过读取Excel表格的信息自动生成C#代码,并且将数据读取到So中便于后续使用`
+
+| ![RandomMap](./Images/excelToSo1.png) | _![RandomMap](./Images/excelToSo2.png) |
+| ------------------------------------- | -------------------------------------- |
+| ![RandomMap](./Images/excelToSo3.png) |                                        |
+
+
+
