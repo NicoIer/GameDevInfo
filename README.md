@@ -45,7 +45,7 @@
 
 Json对话数据存储+UGUI对话
 
-| ![talk1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images//talk1.png) |
+| ![talk1](./Images/talk1.png) |
 | ---------------------------- |
 
 
@@ -58,11 +58,11 @@ Json对话数据存储+UGUI对话
 - TileMap创建场景
 - 使用`UITookit`拓展`Editor`进行快捷技能编辑
 
-| ![CricketMaster-5](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/CricketMaster-5.png)        |
+| ![CricketMaster-5](./Images/CricketMaster-5.png)        |
 | ------------------------------------------------------- |
-| ![CricketMaster-5](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/CricketMaster-4.png)        |
-| ![CricketMaster-2](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/CricketMaster-3.png)        |
-| ![CricketMaster-UITookit](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/CricketMaster-7.png) |
+| ![CricketMaster-5](./Images/CricketMaster-4.png)        |
+| ![CricketMaster-2](./Images/CricketMaster-3.png)        |
+| ![CricketMaster-UITookit](./Images/CricketMaster-7.png) |
 
 ## 随机地图生成
 
@@ -77,9 +77,9 @@ Json对话数据存储+UGUI对话
   - 聚类算法划分区域地皮
   - 随机漫步选择地标
 
-| ![RandomMap1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/RandomMap1.png) |
-| ---------------------------------------------------------- |
-| ![RandomMap](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/RandomMap.png)   |
+| ![RandomMap1](./Images/RandomMap1.png) |
+| -------------------------------------- |
+| ![RandomMap](./Images/RandomMap.png)   |
 
 ## Excel转SO工具
 
@@ -89,5 +89,24 @@ Json对话数据存储+UGUI对话
 | ------------------------------------- | -------------------------------------- |
 | ![ExcelToSo3](./Images/excelToSo3.png) |                                        |
 
+## 多武器系统
+
+`便捷的多武器系统`
+
+类似死亡细胞的攻击系统,通过读表来实现武器数据和逻辑的分离,只切换武器ID即可完成不同武器的切换
+
+> <font color=gray>通过监听SpirteRenderer的SpriteChange事件来实现单一动画控制器,多种不同武器动态切换</font>
+
+![多武器](./Images/MulWepon1.png)
+
+## 宝藏猎人
+
+`开发中的2D横版闯关游戏`
+
+鉴于对应美术资源的完备性以及展现个人能力的需求,应运而生的一个展示型游戏
 
 
+
+>**期望是使用该套美术资源,完成一个完整的游戏demo**
+
+![多武器](./Images/Hunter1.png)
