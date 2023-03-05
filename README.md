@@ -9,9 +9,9 @@
 - 手感优秀的平台跳跃优秀
 - 粒子系统,基本音效
 
-| ![Skip1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/Skip.png)  |
+| ![Skip1](./Images/Skip.png)  |
 | ---------------------------- |
-| ![Skip2](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/Skip2.png) |
+| ![Skip2](./Images/Skip2.png) |
 
 
 ## PokemonUI
@@ -20,10 +20,10 @@
 
 主要是对UGUI的搭建
 
-| ![pokemon1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/pokemon1.png) |
+| ![pokemon1](./Images/pokemon1.png) |
 | ---------------------------------- |
-| ![pokemon2](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/pokemon2.png) |
-| ![pokemon3](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/pokemon3.png) |
+| ![pokemon2](./Images/pokemon2.png) |
+| ![pokemon3](./Images/pokemon3.png) |
 
 
 
@@ -33,7 +33,7 @@
 
 简单的道具拾取功能+UGUI的栅格系统+Json数据存储
 
-| ![bag1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/bag1.png) |      |
+| ![bag1](./Images/bag1.png) |      |
 | -------------------------- | ---- |
 |                            |      |
 
