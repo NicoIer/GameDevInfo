@@ -8,7 +8,9 @@
 
 通过DIY实现了一套手感优秀的玩家跳跃物理系统
 
-整体上是一个手感优秀的2D平台跳跃游戏,使用了基本的粒子系统,音效来增强表现力
+| ![Skip1](./Images/Skip.png)  |
+| ---------------------------- |
+| ![Skip2](./Images/Skip2.png) |
 
 ![Skip1](./Images/Skip.png)
 
@@ -20,7 +22,10 @@
 
 实现了一套类似老版宝可梦的UI系统
 
-![pokemon1](./Images/pokemon1.png)
+| ![pokemon1](./Images/pokemon1.png) |
+| ---------------------------------- |
+| ![pokemon2](./Images/pokemon2.png) |
+| ![pokemon3](./Images/pokemon3.png) |
 
 ![pokemon2](./Images/pokemon2.png)
 
@@ -32,7 +37,7 @@
 
 简单的道具拾取功能+UGUI的栅格系统+Json数据存储
 
-| ![bag1](https://github.com/NicoIer/AboutUnityLearning/blob/main/Images/bag1.png) |      |
+| ![bag1](./Images/bag1.png) |      |
 | -------------------------- | ---- |
 |                            |      |
 
