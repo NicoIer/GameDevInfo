@@ -95,14 +95,34 @@ DIY了一套随机地图生成算法,可用于俯视角地牢游戏,类饥荒2.5
 
 ![多武器](./Images/MulWepon1.png)
 
+
+
+## 地牢射击游戏中的枪械
+
+`学习2D射击游戏时做的demo,本来想用组合方式来实现枪械,最后还是使用了继承的方式,设计模式仍需努力` 
+
+实现了弹壳掉落,子弹飞出和爆炸,激光器和高速枪械.
+
+![Gun-3](D:\Learning\Project\AboutUnityLearning\Images\Gun-3.png)
+
+![Gun-2](D:\Learning\Project\AboutUnityLearning\Images\Gun-2.png)
+
+![Gun-1](D:\Learning\Project\AboutUnityLearning\Images\Gun-1.png)
+
+## 俯视角多人RPG
+
+`学习Mirror时跟着Youtube教程做的demo`
+
+使用Mirror做网络同步,实现了动画和移动的同步,demo整体比较简单,并未使用Rpc做函数调用
+
+![MulRPG-1](D:\Learning\Project\AboutUnityLearning\Images\MulRPG-1.png)
+
+
+
 ## 宝藏猎人
 
 `开发中的2D横版闯关游戏`
 
-鉴于对应美术资源的完备性以及展现个人能力的需求,应运而生的一个展示型游戏
-
-
-
->**期望是使用该套美术资源,完成一个完整的游戏demo**
+发现了一套比较完整的美术资源,因此想要利用这套资源做一个完整的横版闯关游戏
 
 ![多武器](./Images/Hunter1.png)
