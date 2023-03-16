@@ -103,11 +103,11 @@ DIY了一套随机地图生成算法,可用于俯视角地牢游戏,类饥荒2.5
 
 实现了弹壳掉落,子弹飞出和爆炸,激光器和高速枪械.
 
-![Gun-3](D:\Learning\Project\AboutUnityLearning\Images\Gun-3.png)
+![Gun-3](./Images/Gun-3.png)
 
-![Gun-2](D:\Learning\Project\AboutUnityLearning\Images\Gun-2.png)
+![Gun-2](./Images/Gun-2.png)
 
-![Gun-1](D:\Learning\Project\AboutUnityLearning\Images\Gun-1.png)
+![Gun-1](./Images/Gun-1.png)
 
 ## 俯视角多人RPG
 
@@ -115,7 +115,7 @@ DIY了一套随机地图生成算法,可用于俯视角地牢游戏,类饥荒2.5
 
 使用Mirror做网络同步,实现了动画和移动的同步,demo整体比较简单,并未使用Rpc做函数调用
 
-![MulRPG-1](D:\Learning\Project\AboutUnityLearning\Images\MulRPG-1.png)
+![MulRPG-1](./Images/MulRPG-1.png)
 
 
 
