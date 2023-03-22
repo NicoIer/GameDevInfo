@@ -1,18 +1,35 @@
-# Unity Learning Record
+# <span id="head1">Unity Learning Record</span>
+
+## <span id="head2"> 目录</span>
+
+- [Unity Learning Record](#head1)
+  - [ 目录](#head2)
+  - [ 简介](#head3)
+  - [ 技术能力](#head4)
+  - [ Demos](#head5)
+    - [ 2DSkipGame](#head6)
+    - [ PokemonUI](#head7)
+    - [ SimpleBag](#head8)
+    - [ SimpleTalk](#head9)
+    - [ CricketMaster](#head10)
+    - [ 随机地图生成](#head11)
+    - [ Excel转SO工具](#head12)
+    - [ 多武器系统](#head13)
+    - [ 多枪械射击Demo](#head14)
+    - [ 俯视角多人RPG](#head15)
+    - [ 分手厨房](#head16)
+    - [ 宝藏猎人](#head17)
 
 
-
-[TOC]
-
-## 简介
+## <span id="head3"> 简介</span>
 
 ​		个人Unity学习记录,记录自2022年春开始的游戏开发历程。为进一步学习，工作做准备。
 
 仅记录完成度较高的demo。部分demo存储在Github个人仓库中，可供参考。
 
-## 技术能力
+## <span id="head4"> 技术能力</span>
 
-| 技术内容                     | 掌握程度         |        |
+| 技术内容                       | 掌握程度     |                                 |
 | ------------------------------ | ------------ | ------------------------------- |
 | 2D物理系统                     | 掌握         | :star::star::star::star:        |
 | **3D物理系统**                 | **熟练**     | :star::star::star:              |
@@ -39,9 +56,9 @@
 
 
 
-## Demos
+## <span id="head5"> Demos</span>
 
-### 2DSkipGame
+### <span id="head6"> 2DSkipGame</span>
 
 `2D平台跳跃小游戏,参考蔚蓝实现了一套手感优秀的跳跃系统`
 
@@ -52,15 +69,15 @@
 
 
 
-![Skip1](./Images/Skip.png)
+![Skip1](D:/UserData/GitHub/AboutUnityLearning/Images/Skip.png)
 
-![Skip2](./Images/Skip2.png)
+![Skip2](D:/UserData/GitHub/AboutUnityLearning/Images/Skip2.png)
 
-![Skip1](./Images/Skip.png)
+![Skip1](D:/UserData/GitHub/AboutUnityLearning/Images/Skip.png)
 
-![Skip2](./Images/Skip2.png)
+![Skip2](D:/UserData/GitHub/AboutUnityLearning/Images/Skip2.png)
 
-### PokemonUI
+### <span id="head7"> PokemonUI</span>
 
 `宝可梦UI+Json数据存储`+`MVC设计模式`
 
@@ -68,21 +85,21 @@
 | ---------------- | ------------------------------------------- |
 | **MVC设计模式**  | **UI显示和数据分离**                        |
 
-![pokemon1](./Images/pokemon1.png)
+![pokemon1](D:/UserData/GitHub/AboutUnityLearning/Images/pokemon1.png)
 
 
 
-![pokemon3](./Images/pokemon3.png)
+![pokemon3](D:/UserData/GitHub/AboutUnityLearning/Images/pokemon3.png)
 
-![pokemon2](./Images/pokemon2.png)
+![pokemon2](D:/UserData/GitHub/AboutUnityLearning/Images/pokemon2.png)
 
-![pokemon1](./Images/pokemon1.png)
+![pokemon1](D:/UserData/GitHub/AboutUnityLearning/Images/pokemon1.png)
 
-![pokemon2](./Images/pokemon2.png)
+![pokemon2](D:/UserData/GitHub/AboutUnityLearning/Images/pokemon2.png)
 
-![pokemon3](./Images/pokemon3.png)
+![pokemon3](D:/UserData/GitHub/AboutUnityLearning/Images/pokemon3.png)
 
-### SimpleBag
+### <span id="head8"> SimpleBag</span>
 
 `简单的背包系统`
 
@@ -102,7 +119,7 @@
 
 
 
-### SimpleTalk
+### <span id="head9"> SimpleTalk</span>
 
 `一套简单的对话系统,分离了数据和逻辑`
 
@@ -114,11 +131,11 @@
 
 
 
-![talk1](./Images/talk1.png)
+![talk1](D:/UserData/GitHub/AboutUnityLearning/Images/talk1.png)
 
 
 
-### CricketMaster
+### <span id="head10"> CricketMaster</span>
 
 `2D平台跳跃+2.5D回合制战斗`
 
@@ -131,15 +148,15 @@
 | **技能效果组合** | **组合设计模式实现的技能,一个技能由多个效果组成** |
 | **2.5D场景**     | **一个统一的场景管理器,实现2.5D的视觉效果**       |
 
-![CricketMaster-5](./Images/CricketMaster-5.png)
+![CricketMaster-5](D:/UserData/GitHub/AboutUnityLearning/Images/CricketMaster-5.png)
 
-![CricketMaster-5](./Images/CricketMaster-4.png)
+![CricketMaster-5](D:/UserData/GitHub/AboutUnityLearning/Images/CricketMaster-4.png)
 
-![CricketMaster-2](./Images/CricketMaster-3.png)
+![CricketMaster-2](D:/UserData/GitHub/AboutUnityLearning/Images/CricketMaster-3.png)
 
-![CricketMaster-UITookit](./Images/CricketMaster-7.png)
+![CricketMaster-UITookit](D:/UserData/GitHub/AboutUnityLearning/Images/CricketMaster-7.png)
 
-### 随机地图生成
+### <span id="head11"> 随机地图生成</span>
 
 `随机地图数据的生成`
 
@@ -155,11 +172,11 @@ DIY了一套随机地图生成算法,可用于俯视角地牢游戏,类饥荒2.5
 
 
 
-![RandomMap1](./Images/RandomMap1.png)
+![RandomMap1](D:/UserData/GitHub/AboutUnityLearning/Images/RandomMap1.png)
 
-![RandomMap](./Images/RandomMap.png)
+![RandomMap](D:/UserData/GitHub/AboutUnityLearning/Images/RandomMap.png)
 
-### Excel转SO工具
+### <span id="head12"> Excel转SO工具</span>
 
 `一个简单的自动工具,可根据Excel表格的信息自动生成C#代码,并且将数据读取到So中便于后续使用`
 
@@ -173,13 +190,13 @@ DIY了一套随机地图生成算法,可用于俯视角地牢游戏,类饥荒2.5
 
 
 
-![ExcelToSo2](./Images/excelToSo2.png)
+![ExcelToSo2](D:/UserData/GitHub/AboutUnityLearning/Images/excelToSo2.png)
 
-![ExcelToSo1](./Images/excelToSo1.png)
+![ExcelToSo1](D:/UserData/GitHub/AboutUnityLearning/Images/excelToSo1.png)
 
-![ExcelToSo3](./Images/excelToSo3.png)
+![ExcelToSo3](D:/UserData/GitHub/AboutUnityLearning/Images/excelToSo3.png)
 
-### 多武器系统
+### <span id="head13"> 多武器系统</span>
 
 `便捷的多武器系统`
 
@@ -189,11 +206,11 @@ DIY了一套随机地图生成算法,可用于俯视角地牢游戏,类饥荒2.5
 
 > <font color=red>多武器的核心在于:</font><font color=gray>通过监听SpirteRenderer的SpriteChange事件来实现单一动画控制器,多种不同武器动态切换</font>
 
-![多武器](./Images/MulWepon1.png)
+![多武器](D:/UserData/GitHub/AboutUnityLearning/Images/MulWepon1.png)
 
 
 
-### 多枪械射击Demo
+### <span id="head14"> 多枪械射击Demo</span>
 
 `实现2D射击游戏中不同枪械` 
 
@@ -204,13 +221,13 @@ DIY了一套随机地图生成算法,可用于俯视角地牢游戏,类饥荒2.5
 | **易于拓展的枪械** | **组合设计模式实现不同的枪械,新增枪械时,只需要设计不同的组件即可** |
 | **特效后处理**     | **激光射线使用Bloom显示光晕**                                |
 
-![Gun-3](./Images/Gun-3.png)
+![Gun-3](D:/UserData/GitHub/AboutUnityLearning/Images/Gun-3.png)
 
-![Gun-2](./Images/Gun-2.png)
+![Gun-2](D:/UserData/GitHub/AboutUnityLearning/Images/Gun-2.png)
 
-![Gun-1](./Images/Gun-1.png)
+![Gun-1](D:/UserData/GitHub/AboutUnityLearning/Images/Gun-1.png)
 
-### 俯视角多人RPG
+### <span id="head15"> 俯视角多人RPG</span>
 
 `Mirror初体验 + Youtube俯视角游戏教程`
 
@@ -218,10 +235,10 @@ DIY了一套随机地图生成算法,可用于俯视角地牢游戏,类饥荒2.5
 
 实现了`动画`和`位置信息`的同步,整体较为简单
 
-![MulRPG-1](./Images/MulRPG-1.png)
+![MulRPG-1](D:/UserData/GitHub/AboutUnityLearning/Images/MulRPG-1.png)
 
 
-### 分手厨房
+### <span id="head16"> 分手厨房</span>
 
 `类似分手厨房的游戏`
 
@@ -236,25 +253,25 @@ DIY了一套随机地图生成算法,可用于俯视角地牢游戏,类饥荒2.5
 | **UI特效**         | **通过监听自定义的事件,来触发UI特效**           |
 | **UISelect**       | **非鼠标操作UI**                                |
 
-![cooking1](./Images/cooking1.png)
+![cooking1](D:/UserData/GitHub/AboutUnityLearning/Images/cooking1.png)
 
-![cooking4](./Images/cooking4.png)
+![cooking4](D:/UserData/GitHub/AboutUnityLearning/Images/cooking4.png)
 
-![cooking2](./Images/cooking2.png)
+![cooking2](D:/UserData/GitHub/AboutUnityLearning/Images/cooking2.png)
 
-![cooking3](./Images/cooking3.png)
-
-
-
-![cooking5](./Images/cooking5.png)
-
-![cooking6](./Images/cooking6.png)
-
-![cooking7](./Images/cooking7.png)
+![cooking3](D:/UserData/GitHub/AboutUnityLearning/Images/cooking3.png)
 
 
 
-### 宝藏猎人
+![cooking5](D:/UserData/GitHub/AboutUnityLearning/Images/cooking5.png)
+
+![cooking6](D:/UserData/GitHub/AboutUnityLearning/Images/cooking6.png)
+
+![cooking7](D:/UserData/GitHub/AboutUnityLearning/Images/cooking7.png)
+
+
+
+### <span id="head17"> 宝藏猎人</span>
 
 `开发中的2D横版闯关游戏`
 
