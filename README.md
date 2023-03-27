@@ -19,6 +19,7 @@
     - [ 俯视角多人RPG](#head15)
     - [ 分手厨房](#head16)
     - [ 宝藏猎人](#head17)
+    - [胡闹厨房-多人版](#head18)
 
 
 ## <span id="head3"> 简介</span>
@@ -27,30 +28,32 @@
 
 仅记录完成度较高的demo。部分demo存储在Github个人仓库中，可供参考。
 
+有任何问题,请发邮件联系 [NicoIer@163.com]()
+
 ## <span id="head4"> 技术能力</span>
 
-| 技术内容                       | 掌握程度     |                                 |
-| ------------------------------ | ------------ | ------------------------------- |
-| 2D物理系统                     | 掌握         | :star::star::star::star:        |
-| **3D物理系统**                 | **熟练**     | :star::star::star:              |
-| **UGUI**                       | **熟练**     | :star::star::star:              |
-| **2D动画系统**                 | **掌握**     | :star::star::star::star:        |
-| **UinTask异步框架**            | **较深理解** | :star: :star::star::star::star: |
-| **JobSystem**                  | **较为熟练** | :star::star::star:              |
-| **ShaderGraph**                | **基本了解** | :star::star:                    |
-| **Mirror && NetCode 网络框架** | **基本了解** | :star::star:                    |
-| **音效系统**                   | **了解**     | :star:                          |
-| **常见设计模式 以及 代码架构** | **较为熟练** | :star::star::star:              |
-| **粒子系统**                   | **基本了解** | :star::star:                    |
-| **Unity常用性能分析工具**      | **基本了解** | :star::star:                    |
-| **Unity性能优化**              | **了解**     | :star:                          |
-| **Unity DOTS**                 | **基本了解** | :star::star:                    |
-| **C#语言基础**                 | **较深理解** | :star::star::star::star::star:  |
-| **Unity 灯光**                 | **了解**     | :star:                          |
-| **Unity 特效**                 | **了解**     | :star:                          |
-|                                |              |                                 |
-|                                |              |                                 |
-|                                |              |                                 |
+| 技术内容                       | 掌握程度     |                                |
+| ------------------------------ | ------------ | ------------------------------ |
+| **2D物理系统**                 | **掌握**     | :star::star::star:             |
+| **3D物理系统**                 | **熟练**     | :star::star::star:             |
+| **UGUI**                       | **熟练**     | :star::star::star:             |
+| **2D动画系统**                 | **掌握**     | :star::star::star::star:       |
+| **UinTask异步框架**            | **较深理解** | :star: :star::star::star:      |
+| **JobSystem**                  | **较为熟练** | :star::star::star:             |
+| **ShaderGraph**                | **基本了解** | :star::star:                   |
+| **Mirror && NetCode 网络框架** | **掌握**     | :star::star::star:             |
+| **音效系统**                   | **了解**     | :star:                         |
+| **常见设计模式 以及 代码架构** | **较为熟练** | :star::star::star:             |
+| **粒子系统**                   | **基本了解** | :star::star:                   |
+| **Unity常用性能分析工具**      | **基本了解** | :star::star:                   |
+| **Unity性能优化**              | **了解**     | :star:                         |
+| **Unity DOTS**                 | **基本了解** | :star::star:                   |
+| **C#语言基础**                 | **较深理解** | :star::star::star::star::star: |
+| **Unity 灯光**                 | **了解**     | :star:                         |
+| **Unity 特效**                 | **了解**     | :star:                         |
+|                                |              |                                |
+|                                |              |                                |
+|                                |              |                                |
 
 
 
@@ -270,6 +273,65 @@ DIY了一套随机地图生成算法,可用于俯视角地牢游戏,类饥荒2.5
 ![cooking7](./Images/cooking7.png)
 
 
+
+
+
+### <span id="head18"> 胡闹厨房</span>
+
+`分手厨房的多人版本,使用Unity NetCode作为网络解决方案，结合Unity Lobby作为匹配方案,Relay Service作为网络连接方案`
+
+`一个合作性质的游戏，不允许游戏开始后加入。一个Peer To Peer的游戏，主机部分信任客户端`
+
+
+
+**项目链接**: [NicoIer/MulPlayerLearningDemo: a demo for learning mulplayer game (github.com)](https://github.com/NicoIer/MulPlayerLearningDemo)
+
+
+
+技术内容
+
+| 网络同步           | ServerRpc,ClientRpc,NetworkVariable |
+| ------------------ | ----------------------------------- |
+| **玩家匹配**       | **Unity Lobby Service**             |
+| **场景同步**       | **NetworkSceneManager**             |
+| **广域网通信方案** | **Unity Relay**                     |
+
+
+
+主要解决的问题
+
+| 游戏状态同步     | 由服务器进行状态更新,通过ClientRpc通知客户端进行状态同步     |
+| ---------------- | ------------------------------------------------------------ |
+| **场景同步**     | **使用NetworkSceneManager进行场景同步**                      |
+| **玩家匹配**     | **使用Unity Lobby进行身份验证,支持公开和私有房间,支持快速和代码加入** |
+| **操作同步**     | **客户端操作后,将操作结果通过ServerRpc通知服务器,服务器再通过ClientRpc通知其他客户端** |
+| **网络道具生成** | **客户端通知服务器进行网络道具生成**                         |
+| **异常处理**     | **身份验证失败,主机掉线,客户端掉线的UI提示，恢复操作**       |
+
+
+
+潜在的问题
+
+- 由于Unity Realy 和Unity Lobby 不支持中国大陆，大陆IP无法进行联机游戏
+- Unity Relay免费版提供的网络质量较差，会影响游戏体验
+
+
+
+
+
+![net1](./Images/net1.png)
+
+![net2](./Images/net2.png)
+
+![net3](./Images/net3.png)
+
+![net4](./Images/net4.png)
+
+![net5](./Images/net5.png)
+
+![net6](./Images/net6.png)
+
+![net7](./Images/net7.png)
 
 ### <span id="head17"> 宝藏猎人</span>
 
