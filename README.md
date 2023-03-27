@@ -5,6 +5,7 @@
 - [Unity Learning Record](#head1)
   - [ 目录](#head2)
   - [ 简介](#head3)
+  - [学习计划](#Plan)
   - [ 技术能力](#head4)
   - [ Demos](#head5)
     - [ 2DSkipGame](#head6)
@@ -29,6 +30,21 @@
 仅记录完成度较高的demo。部分demo存储在Github个人仓库中，可供参考。
 
 有任何问题,请发邮件联系 [NicoIer@163.com]()
+
+
+
+## <span id="Plan"> 学习计划</span>
+
+| Unity ECS                   | :sunny:                       |
+| --------------------------- | ----------------------------- |
+| **Shader Graph**            | :last_quarter_moon_with_face: |
+| **游戏中的AI**              | :last_quarter_moon_with_face: |
+| **Unity强化学习 -> 智能AI** | :last_quarter_moon_with_face: |
+| **多人联机游戏解决方案**    | :sun_behind_rain_cloud:       |
+
+
+
+
 
 ## <span id="head4"> 技术能力</span>
 
