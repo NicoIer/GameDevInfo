@@ -5,8 +5,9 @@
 - [Unity Learning Record](#head1)
   - [ 目录](#head2)
   - [ 简介](#head3)
-  - [学习计划](#Plan)
+  - [个人计划](#Plan)
   - [ 技术能力](#head4)
+  - [个人开发工具包](#Unity Tools)
   - [ Demos](#head5)
     - [ 2DSkipGame](#head6)
     - [ PokemonUI](#head7)
@@ -25,15 +26,13 @@
 
 ## <span id="head3"> 简介</span>
 
-​		个人Unity学习记录,记录自2022年春开始的游戏开发历程。为进一步学习，工作做准备。
+​		个人Unity学习记录,记录自2022年春开始的游戏开发历程。为进一步学习，工作做准备。仅记录完成度较高的demo。部分demo存储在Github个人仓库中，可供参考。
 
-仅记录完成度较高的demo。部分demo存储在Github个人仓库中，可供参考。
-
-有任何问题,请发邮件联系 [NicoIer@163.com]()
+有任何问题,请发邮件联系 [NicoIer@163.com]() [:e-mail:](NicoIer@163.com)
 
 
 
-## <span id="Plan"> 学习计划</span>
+## <span id="Plan"> 个人计划</span>
 
 | Unity ECS                   | :sunny:                       |
 | --------------------------- | ----------------------------- |
@@ -53,23 +52,88 @@
 | **2D物理系统**                 | **掌握**     | :star::star::star:             |
 | **3D物理系统**                 | **熟练**     | :star::star::star:             |
 | **UGUI**                       | **熟练**     | :star::star::star:             |
-| **2D动画系统**                 | **掌握**     | :star::star::star::star:       |
+| **2D动画系统**                 | **掌握**     | :star::star::star:             |
 | **UinTask异步框架**            | **较深理解** | :star: :star::star::star:      |
 | **JobSystem**                  | **较为熟练** | :star::star::star:             |
 | **ShaderGraph**                | **基本了解** | :star::star:                   |
 | **Mirror && NetCode 网络框架** | **掌握**     | :star::star::star:             |
-| **音效系统**                   | **了解**     | :star:                         |
+| **音效**                       | **了解**     | :star:                         |
 | **常见设计模式 以及 代码架构** | **较为熟练** | :star::star::star:             |
 | **粒子系统**                   | **基本了解** | :star::star:                   |
 | **Unity常用性能分析工具**      | **基本了解** | :star::star:                   |
 | **Unity性能优化**              | **了解**     | :star:                         |
 | **Unity DOTS**                 | **基本了解** | :star::star:                   |
 | **C#语言基础**                 | **较深理解** | :star::star::star::star::star: |
-| **Unity 灯光**                 | **了解**     | :star:                         |
-| **Unity 特效**                 | **了解**     | :star:                         |
+| **光照**                       | **了解**     | :star:                         |
 |                                |              |                                |
 |                                |              |                                |
 |                                |              |                                |
+|                                |              |                                |
+
+
+
+
+
+## <span id="Unity Tools"> Unity个人工具包</span>
+
+`Unity的开发工具,可有效提升初期开发速度`
+
+**工具包链接**:[:link:](https://github.com/NicoIer/UnityUtil)[NicoIer/UnityUtil: Unity's development tools (github.com)](https://github.com/NicoIer/UnityUtil)
+
+`欢迎Star`  :star_of_david:
+
+
+
+#### 目前支持的工具内容如下
+
+****
+
+**单例设计模式**
+
+线程安全,可释放的单例模式
+
+- 基于泛型实现的单例
+- 支持MonoBehavior，NetworkBehavior，普通C#类 单例
+- 支持 单场景，跨场景，客户端本地单例 等多种使用场景
+
+
+
+**状态机**
+
+用于行为控制的通用状态机
+
+- 普通的单层状态机
+- 分层状态机
+
+
+
+**Excel导表工具**
+
+基于UITookit和EPluss制作的便捷Excel导表工具。可用于自动生成脚本代码，自动生成数据文件等
+
+- 支持int,bool,string,float,等多种内置类型
+- 支持自定义枚举类型
+- 支持转存到So文件
+
+![excel1](./Images/excel1.png)
+
+![excel2](./Images/excel2.png)
+
+![excel4](./Images/excel4.png)
+
+![excel3](./Images/excel3.png)
+
+
+
+
+
+
+
+
+
+
+
+****
 
 
 
